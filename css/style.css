@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #cb232c, #ce1d61);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    text-align: center;
+    padding: 20px 25px;
+}
+
+form .username {
+    color: #252525;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+form label .fa-brands {
+    display: flex;
+    justify-content: center;
+}
+
+form .password {
+    color: #252525;
+    font-size: 35px;
+    font-weight: 80;
+    margin-bottom: 10px;
+}
+
+form label .fa-solid {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+form .login {
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    
+}
